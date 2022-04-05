@@ -1,24 +1,60 @@
-# Tags: latest, 5.0.6-debian-10-r54, 5.0.6, 5.0-debian-10, 5.0
+# Tags: latest, 5.0.6-debian-10-r59, 5.0.6, 5.0-debian-10, 5.0
 FROM bitnami/mongodb:latest
-FROM bitnami/mongodb:5.0.6-debian-10-r54
+FROM bitnami/mongodb:5.0.6-debian-10-r59
 FROM bitnami/mongodb:5.0.6
 FROM bitnami/mongodb:5.0-debian-10
 FROM bitnami/mongodb:5.0
 
-# Tags: 4.2.19-debian-10-r28, 4.2.19, 4.2-debian-10, 4.2
-FROM bitnami/mongodb:4.2.19-debian-10-r28
+# Tags: _
+FROM bitnami/mongodb:_
+
+# Tags: 4.2.19-debian-10-r32, 4.2.19, 4.2-debian-10, 4.2
+FROM bitnami/mongodb:4.2.19-debian-10-r32
 FROM bitnami/mongodb:4.2.19
 FROM bitnami/mongodb:4.2-debian-10
 FROM bitnami/mongodb:4.2
 
-# Tags: _
-FROM bitnami/mongodb:_
-
-# Tags: 4.4.13-debian-10-r28, 4.4.13, 4.4-debian-10, 4.4
-FROM bitnami/mongodb:4.4.13-debian-10-r28
+# Tags: 4.4.13-debian-10-r32, 4.4.13, 4.4-debian-10, 4.4
+FROM bitnami/mongodb:4.4.13-debian-10-r32
 FROM bitnami/mongodb:4.4.13
 FROM bitnami/mongodb:4.4-debian-10
 FROM bitnami/mongodb:4.4
+
+# Tags: 5.0.6-debian-10-r58
+FROM bitnami/mongodb:5.0.6-debian-10-r58
+
+# Tags: 4.2.19-debian-10-r31
+FROM bitnami/mongodb:4.2.19-debian-10-r31
+
+# Tags: 4.4.13-debian-10-r31
+FROM bitnami/mongodb:4.4.13-debian-10-r31
+
+# Tags: 5.0.6-debian-10-r57
+FROM bitnami/mongodb:5.0.6-debian-10-r57
+
+# Tags: 4.2.19-debian-10-r30
+FROM bitnami/mongodb:4.2.19-debian-10-r30
+
+# Tags: 4.4.13-debian-10-r30
+FROM bitnami/mongodb:4.4.13-debian-10-r30
+
+# Tags: 5.0.6-debian-10-r56
+FROM bitnami/mongodb:5.0.6-debian-10-r56
+
+# Tags: 4.2.19-debian-10-r29
+FROM bitnami/mongodb:4.2.19-debian-10-r29
+
+# Tags: 4.4.13-debian-10-r29
+FROM bitnami/mongodb:4.4.13-debian-10-r29
+
+# Tags: 4.2.19-debian-10-r28
+FROM bitnami/mongodb:4.2.19-debian-10-r28
+
+# Tags: 4.4.13-debian-10-r28
+FROM bitnami/mongodb:4.4.13-debian-10-r28
+
+# Tags: 5.0.6-debian-10-r54
+FROM bitnami/mongodb:5.0.6-debian-10-r54
 
 # Tags: 4.2.19-debian-10-r27
 FROM bitnami/mongodb:4.2.19-debian-10-r27
@@ -235,50 +271,3 @@ FROM bitnami/mongodb:4.2.19-debian-10-r3
 
 # Tags: 4.4.13-debian-10-r3
 FROM bitnami/mongodb:4.4.13-debian-10-r3
-
-# Tags: 5.0.6-debian-10-r31
-FROM bitnami/mongodb:5.0.6-debian-10-r31
-
-# Tags: 4.2.19-debian-10-r2
-FROM bitnami/mongodb:4.2.19-debian-10-r2
-
-# Tags: 4.4.13-debian-10-r2
-FROM bitnami/mongodb:4.4.13-debian-10-r2
-
-# Tags: 5.0.6-debian-10-r30
-FROM bitnami/mongodb:5.0.6-debian-10-r30
-
-# Tags: 4.2.19-debian-10-r1
-FROM bitnami/mongodb:4.2.19-debian-10-r1
-
-# Tags: 4.4.13-debian-10-r1
-FROM bitnami/mongodb:4.4.13-debian-10-r1
-
-# Tags: 5.0.6-debian-10-r29
-FROM bitnami/mongodb:5.0.6-debian-10-r29
-
-# Tags: 4.2.19-debian-10-r0
-FROM bitnami/mongodb:4.2.19-debian-10-r0
-
-# Tags: 4.4.13-debian-10-r0
-FROM bitnami/mongodb:4.4.13-debian-10-r0
-
-# Tags: 4.2.18-debian-10-r51, 4.2.18
-FROM bitnami/mongodb:4.2.18-debian-10-r51
-FROM bitnami/mongodb:4.2.18
-
-# Tags: 5.0.6-debian-10-r28
-FROM bitnami/mongodb:5.0.6-debian-10-r28
-
-# Tags: 4.4.12-debian-10-r38, 4.4.12
-FROM bitnami/mongodb:4.4.12-debian-10-r38
-FROM bitnami/mongodb:4.4.12
-
-# Tags: 5.0.6-debian-10-r27
-FROM bitnami/mongodb:5.0.6-debian-10-r27
-
-# Tags: 4.4.12-debian-10-r37
-FROM bitnami/mongodb:4.4.12-debian-10-r37
-
-# Tags: 4.2.18-debian-10-r50
-FROM bitnami/mongodb:4.2.18-debian-10-r50
