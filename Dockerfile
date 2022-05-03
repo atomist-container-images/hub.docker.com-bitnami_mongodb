@@ -261,6 +261,3 @@ FROM bitnami/mongodb:4.2.19-debian-10-r31
 
 # Tags: 4.4.13-debian-10-r31
 FROM bitnami/mongodb:4.4.13-debian-10-r31
-
-# Tags: 5.0.6-debian-10-r57
-FROM bitnami/mongodb:5.0.6-debian-10-r57
